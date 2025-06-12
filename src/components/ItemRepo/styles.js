@@ -15,8 +15,26 @@ export const ItemContainer = styled.div`
     }
 
     a.remover {
-        color: #FF0000;
+        color: #FAFAFA;
+        font-size: 16px;
         margin-top:20px;
+        text-decoration: none;
+    }
+
+    a.remover:hover {
+        color: #FF0000;
+        transition: color 0.3s ease;
+    }
+
+    a.VerRepo {
+        color: #FAFAFA;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    a.VerRepo:hover {
+        color: #00FF00;
+        transition: color 0.3s ease;
     }
 
     hr {

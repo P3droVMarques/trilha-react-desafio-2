@@ -11,3 +11,26 @@ export const Container = styled.div`
     align-items: center;
     justify-content: flex-start;
 `
+
+export const Search = styled.div`
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+ 
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+           button {
+        height: 42px;
+    }
+        input {
+            width: 100%;
+            margin-bottom: 10px;
+     
+        }
+}
+`

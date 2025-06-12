@@ -14,11 +14,21 @@ export const InputContainer = styled.div`
     input {
         background: transparent;
         border: 0;
-        width: 90%;
+        width: 96%;
         height: 62px;
         padding: 0 20px;
         color: #FFFFFF;
-        font-size: 20px
+        font-size: 20px;
     }
 
+    input:focus {
+        outline: none;
+    }
+
+    @media (max-width: 768px) {
+        width: 90%;
+        input {
+            width: 90%;
+        }
+}
 `

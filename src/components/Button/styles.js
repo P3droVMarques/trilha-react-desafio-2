@@ -6,8 +6,8 @@ export const ButtonContainer = styled.button`
     border: 1px solid #FAFAFA;
     border-radius: 20px;
 
-    height: 62px;
-    width: 80%;
+    height: 52%;
+    width: 20%;
 
     margin: 20px;
 
